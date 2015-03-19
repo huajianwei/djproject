@@ -1,0 +1,8 @@
+在django的目录下新建一个工程
+
+django-admin startproject djproject
+
+开启本地服务
+
+python manage.py runserver
+
