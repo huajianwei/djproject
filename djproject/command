@@ -6,3 +6,5 @@ django-admin startproject djproject
 
 python manage.py runserver
 
+新建一个app
+python manage.py startapp  blog
