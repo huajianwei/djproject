@@ -8,3 +8,18 @@ python manage.py runserver
 
 新建一个app
 python manage.py startapp  blog
+
+新建一个blog程序后,添加djproject.blog到setting.py的
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'djproject.blog'
+]
+
+后报错,将其放到djproject下的djproject下的文件夹后ok..
+
+
